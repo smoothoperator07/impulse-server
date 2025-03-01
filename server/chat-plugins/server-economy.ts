@@ -1,8 +1,9 @@
 /**
  * Server Economy System for Pokémon Showdown
- * Version: 1.0 Taken From Wavelength Server Repository
+ * Old Version: 1.0 Taken From Wavelength Server Repository
  * Version 2.0 By Clark Jones (@smoothopetator07)
- * Version: 2.0 Includes Compatibility
+ * Version: 2.0 Includes Custom Commands And
+ * Compatibility Wit Latest pokemon-showdown files
  * With Latest PokemonShowdown Files And Custom Commands 
  * Description: Implements an economy system with Pokédollars.
  * Compatible with Pokémon Showdown TypeScript system.
