@@ -6,7 +6,7 @@
  * Compatibility Wit Latest pokemon-showdown files
  * With Latest PokemonShowdown Files And Custom Commands 
  * Description: Implements an economy system with Pokédollars.
- * Compatible with Pokémon Showdown TypeScript system.
+ * Compatible with Pokémon Showdown TypeScript system
  */
 
 'use strict';
