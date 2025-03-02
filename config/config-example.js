@@ -64,8 +64,8 @@ exports.wsdeflate = {
 exports.ssl = {
 	port: 443,
 	options: {
-		key: './config/key.pem',
-		cert: './config/key-cert.pem',
+		key: './config/ssl/key.pem',
+		cert: './config/ssl/keycert.pem',
 	},
 };
 
