@@ -61,7 +61,12 @@ exports.wsdeflate = {
  *  something.
  * @type {{port: number, options: {key: string, cert: string}} | null}
  */
-exports.ssl = null;
+exports.ssl = {
+	port: 443,
+	options: {
+		key: '../config/ec2-13-61-163-148.eu-north-1.compute.amazonaws.com.pem',
+		cert: '../config/ec2-13-61-163-148.eu-north-1.compute.amazonaws.com.cert',
+	};
 
 /*
 // example:
