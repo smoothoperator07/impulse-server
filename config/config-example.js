@@ -5,7 +5,7 @@
  *
  * @type {number}
  */
-exports.port = 8000;
+exports.port = 443;
 
 /**
  * The server address - the address at which Pokemon Showdown should be hosting
@@ -61,7 +61,13 @@ exports.wsdeflate = {
  *  something.
  * @type {{port: number, options: {key: string, cert: string}} | null}
  */
-exports.ssl = null;
+exports.ssl = {
+	port: 443,
+	options: {
+		key: './config/key.pem',
+		cert: './config/key-cert.pem',
+	},
+};
 
 /*
 // example:
