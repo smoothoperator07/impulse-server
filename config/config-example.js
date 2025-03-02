@@ -65,7 +65,7 @@ exports.ssl = {
 	port: 443,
 	options: {
 		key: '../config/ec2-13-61-163-148.eu-north-1.compute.amazonaws.com.pem',
-		cert: '../config/ec2-13-61-163-148.eu-north-1.compute.amazonaws.com.cert',
+		cert: '../config/ec2-13-61-163-148.eu-north-1.compute.amazonaws.com.cer',
 	};
 
 /*
